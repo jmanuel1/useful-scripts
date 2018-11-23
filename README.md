@@ -2,9 +2,6 @@
 
 Tiny little scripts I find useful for things I don't always remember how to do.
 
-*Project status:* This project isn't my current focus, but I will look at
-issues and pull requests.
-
 ## Getting Started
 
 Clone the repository.
