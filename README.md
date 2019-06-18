@@ -20,15 +20,19 @@ instructions will appear at the top of the script.
 Windows scripts in `src/windows` will run on Windows. Linux scripts may be
 added later.
 
+Scripts for working with git are under `src/git`.
+
 ### Running a script
 
-There's no installation process. Just run a script from your terminal!
+Largely, you should be able to just run a script from your terminal!
 
 ```
 rem Windows example
 src\windows\battery-report
 rem A battery-report.html file appears in your current working directory.
 ```
+
+Some scripts are written in Python.
 
 ## Support
 
