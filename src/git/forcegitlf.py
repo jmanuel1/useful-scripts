@@ -1,14 +1,19 @@
 import subprocess
 import os
 
-
-def git(*args):
-    process = subprocess.run(['git'] + list(args),
-                             stdout=subprocess.PIPE, encoding='utf8')
-    return process.stdout.split('\n')
+from typing import Iterable, cast
 
 
-def delete_all_tracked_files():
+def git(*args: str) -> Iterable[str]:
+    process: subprocess.CompletedProcess = subprocess.run(
+        ['git'] + list(args),
+        stdout=subprocess.PIPE,
+        encoding='utf8'
+    )
+    return cast(str, process.stdout).split('\n')
+
+
+def delete_all_tracked_files() -> None:
     for file in git('ls-tree', '-r', 'HEAD', '--name-only'):
         os.remove(file)
 
