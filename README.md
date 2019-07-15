@@ -53,6 +53,9 @@ If you edit or add a script, please help out and add tests and documentation.
 New scripts should come with a justification of their usefulness. Remember to
 keep scripts separated by OS, with as few dependencies as reasonably possible.
 
+Mypy should be used for type checking of Python scripts. pycodestyle should be
+used to check Python files, too.
+
 ## Authors
 
 * **Jason Manuel** - *Initial work* - [jmanuel1](https://github.com/jmanuel1)
@@ -63,7 +66,8 @@ participated in this project.
 
 ## Acknowledgments
 
-* [Billie Thompson](https://github.com/PurpleBooth) for the [readme template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md).
+* [Billie Thompson](https://github.com/PurpleBooth) for the [readme
+  template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md).
 
 ## License
 

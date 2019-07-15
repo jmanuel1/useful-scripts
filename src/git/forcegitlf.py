@@ -1,3 +1,5 @@
+# NOTE Dependencies: Python 3.5+, Git
+
 import subprocess
 import os
 
