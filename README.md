@@ -42,7 +42,6 @@ also be directed to the issue page.
 
 ## Roadmap
 
-* Add my other helpful scripts as a version 0.0.1
 * Develop tests for scripts
 * Add documentation for each script
 * Remove unnecessary dependencies from scripts
