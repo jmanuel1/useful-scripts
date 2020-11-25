@@ -17,8 +17,8 @@ instructions will appear at the top of the script.
 
 ### Prerequisites
 
-Windows scripts in `src/windows` will run on Windows. Linux scripts may be
-added later.
+Windows scripts in `src/windows` will run on Windows. Linux scripts are in
+`src/linux`.
 
 Scripts for working with git are under `src/git`.
 
